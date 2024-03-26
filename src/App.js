@@ -1,11 +1,10 @@
-import CardDetail from './components/cardDetails/cardDetails';
-import './App.css';
+import CardDetail from './components/cardDetails/cardDetail';
 
 function App() {
   return (
-    <main className='container'>
+    <>
       <CardDetail/>
-    </main>
+    </>
   );
 }
 

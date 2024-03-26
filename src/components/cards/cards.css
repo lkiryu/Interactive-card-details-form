@@ -1,0 +1,11 @@
+.cards{
+    width: 550px;
+}
+
+.card{
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
