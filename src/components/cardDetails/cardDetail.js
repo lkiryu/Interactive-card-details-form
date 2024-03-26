@@ -7,9 +7,11 @@ import './cardDetail.css'
 const CardDetail = () => {
     return (
         <main className='container'>
-            <Cards/>
-            
-            <Inputs/>
+            <div className="content">
+                <Cards />
+
+                <Inputs />
+            </div>
         </main>
     )
 }

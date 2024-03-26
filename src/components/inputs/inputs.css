@@ -1,0 +1,69 @@
+.inputs p{
+    color: hsl(278, 68%, 11%);
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+input{
+    border: 1px solid hsl(270, 3%, 87%);
+    border-radius: 10px;
+    padding: 15px 20px;
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+input.error{
+    border: 1px solid hsl(0, 100%, 66%);
+}
+
+input::placeholder{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    color: hsl(279, 6%, 55%);
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid hsl(278, 94%, 30%);
+}
+
+.expDate input{
+    width: 80px;
+    margin-right: 15px;
+    padding: 15px 0 15px 20px;
+}
+
+.inputs .expDate-cvc{
+    display: flex;
+}
+
+.cvcInput{
+    width: 210px;
+}
+
+.inputs .error-menssage{
+    text-transform: none;
+    color: hsl(0, 100%, 66%);
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.submitButton{
+    background-color: hsl(278, 68%, 11%);
+    color: hsl(270, 3%, 87%);
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.submitButton:hover{
+    opacity: 80%;
+}
+
+.none{
+    display: none;
+}

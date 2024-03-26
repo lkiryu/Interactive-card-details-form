@@ -4,10 +4,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-bottom: 0;
 }
 
 .back .cvc{
     position: absolute;
     top: 44%;
     left: 80%;
+    color: hsl(0, 0%, 100%);
 }
