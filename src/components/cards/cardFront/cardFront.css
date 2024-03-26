@@ -1,0 +1,22 @@
+.front{
+    align-self: flex-start;
+    background-image: url(../../../images/bg-card-front.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.front .logo{
+    margin-bottom: 50px;
+}
+
+.front .cardNumber{
+    color: hsl(0, 0%, 100%);
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.front .cardInfo{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(0, 0%, 100%);
+}
