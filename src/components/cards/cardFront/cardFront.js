@@ -3,7 +3,7 @@ import cardLogo from '../../../images/card-logo.svg'
 
 const CardFront = () => {
     return (
-        <div className="cardFront">
+        <div className="card front">
             <img src={cardLogo} alt="logo"></img>
             <p className="cardNumber">0000 0000 0000 0000</p>
             <div className="cardInfo">
