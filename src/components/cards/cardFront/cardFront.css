@@ -2,7 +2,7 @@
     align-self: flex-start;
     background-image: url(../../../images/bg-card-front.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .front .logo{

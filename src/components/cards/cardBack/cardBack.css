@@ -1,0 +1,13 @@
+.back{
+    align-self: flex-end;
+    background-image: url(../../../images/bg-card-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.back .cvc{
+    position: absolute;
+    top: 44%;
+    left: 80%;
+}

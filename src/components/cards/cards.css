@@ -1,10 +1,10 @@
-.cards{
+.cards {
     display: flex;
     flex-direction: column;
     width: 550px;
 }
 
-.card{
+.card {
     width: 450px;
     height: 250px;
     border-radius: 10px;
