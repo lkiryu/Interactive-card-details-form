@@ -1,4 +1,4 @@
-.inputs p{
+.inputs p {
     color: hsl(278, 68%, 11%);
     font-size: 16px;
     text-transform: uppercase;
@@ -7,51 +7,53 @@
     margin-top: 20px;
 }
 
-input{
+input {
     border: 1px solid hsl(270, 3%, 87%);
     border-radius: 10px;
     padding: 15px 20px;
     width: 400px;
     margin-bottom: 5px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
 }
 
-input.error{
+input.error {
     border: 1px solid hsl(0, 100%, 66%);
 }
 
-input::placeholder{
+input::placeholder {
     font-family: "Space Grotesk", sans-serif;
     font-size: 18px;
     color: hsl(279, 6%, 55%);
 }
 
-input:focus{
+input:focus {
     outline: none;
     border: 1px solid hsl(278, 94%, 30%);
 }
 
-.expDate input{
+.expDate input {
     width: 80px;
     margin-right: 15px;
     padding: 15px 0 15px 20px;
 }
 
-.inputs .expDate-cvc{
+.inputs .expDate-cvc {
     display: flex;
 }
 
-.cvcInput{
+.cvcInput {
     width: 210px;
 }
 
-.inputs .error-menssage{
+.inputs .error-menssage {
     text-transform: none;
     color: hsl(0, 100%, 66%);
     font-size: 14px;
     margin-top: 0;
 }
 
-.submitButton{
+.submitButton {
     background-color: hsl(278, 68%, 11%);
     color: hsl(270, 3%, 87%);
     font-size: 18px;
@@ -60,10 +62,20 @@ input:focus{
     transition: 0.3s ease-in;
 }
 
-.submitButton:hover{
+.submitButton:hover {
     opacity: 80%;
 }
 
-.none{
+.none {
     display: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
 }
