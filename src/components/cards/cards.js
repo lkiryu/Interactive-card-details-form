@@ -1,16 +1,10 @@
 import React from "react";
+import CardFront from "./cardFront/cardFront";
 
 const Cards = () => {
     return (
         <div className="cards">
-            <div className="cardFront">
-                <img src="" alt=""></img>
-                <p className="cardNumber"></p>
-                <div className="cardInfo">
-                    <p className="name"></p>
-                    <p className="validity"><span className="mm"></span>/<span className="yy"></span></p>
-                </div>
-            </div>
+            <CardFront/>
             <div className="cardBack">
                 <p className="cvc"></p>
             </div>
