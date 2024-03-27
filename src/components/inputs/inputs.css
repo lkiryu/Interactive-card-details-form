@@ -79,3 +79,41 @@ input::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance: textfield;
 }
+
+@media(max-width:1024px){
+    input{
+        width: 350px;
+    }
+
+    .cvcInput {
+        width: 160px;
+    }    
+}
+
+@media(max-width:800px){
+    .inputs{
+        margin-top: 150px;
+    }
+}
+
+@media(max-width:500px){
+    .inputs{
+        margin-top: 100px;
+    }
+
+    .inputs p {
+        font-size: 14px;
+    }
+
+    input {
+        width: 300px;
+    }
+
+    .cvcInput {
+        width: 110px;
+    }
+
+    .inputs .error-menssage {
+        font-size: 12px;
+    }
+}

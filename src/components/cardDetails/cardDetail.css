@@ -27,3 +27,28 @@ body{
     align-items: center;
     width: 70vw;
 }
+
+@media(max-width:1100px){
+    .container .content{
+        width: 90vw;
+    }
+}
+
+@media(max-width:800px){
+    .container{
+        background-image: url(../../images/bg-main-mobile.png);
+        background-size: 100% 40%;
+        height: 100%;
+    }
+
+    .container .content{
+        flex-direction: column;
+        margin: 40px 0;
+    }
+}
+
+@media(max-width:500px){
+    .container{
+        background-size: 100% 35%;
+    }
+}
