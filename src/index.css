@@ -1,5 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@theme {
+  --color-gradient_blue: hsl(249, 99%, 64%);
+  --color-gradient_purple: hsl(278, 94%, 30%);
+  --color-light_violet: hsl(270, 3%, 87%);
+  --color-dark_violet: hsl(279, 6%, 55%);
+  --color-very_dark_violet: hsl(278, 68%, 11%);
+  --color-error: hsl(0, 100%, 66%);
+
+  --font-space_grotesk: [ "Space Grotesk", "sans-serif"];
+}
